@@ -8,12 +8,12 @@ export default function HexCoreLanding() {
         <p className="text-lg text-gray-400">نحو القمة في عالم الرياضات الإلكترونية</p>
       </header>
 
-      <main className="max-w-4xl mx-auto space-y-20">
+      <main className="max-w-6xl mx-auto space-y-20">
 
         <section>
           <h2 className="text-3xl font-semibold mb-4 border-b border-gray-700 pb-2">من نحن</h2>
           <p className="text-gray-300 leading-relaxed">
-            نحن HexCore، فريق إيسبورت سعودي محترف، نطمح لبناء منظومة تنافسية متكاملة تضم نخبة من اللاعبين والمدربين وصناع المحتوى، ننافس محلياً وعالمياً.
+            HexCore هو فريق سعودي محترف في الرياضات الإلكترونية، يهدف إلى بناء منظومة تنافسية متكاملة تضم نخبة من اللاعبين، المدربين، وصناع المحتوى. نطمح إلى التميز على المستويين المحلي والعالمي.
           </p>
         </section>
 
