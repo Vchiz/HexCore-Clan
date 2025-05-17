@@ -5,7 +5,10 @@ export default function HexCoreLanding() {
     <div className="min-h-screen bg-black text-white px-4 py-8">
       <nav className="bg-gray-950 text-white px-4 py-3 sticky top-0 z-50 border-b border-gray-800 shadow">
         <div className="max-w-6xl mx-auto flex justify-between items-center">
-          <div className="text-2xl font-bold tracking-wide">HexCore</div>
+          <div className="flex items-center space-x-3">
+            <img src="/hexcore-logo.png" alt="HexCore Logo" className="w-10 h-10 rounded-full" />
+            <span className="text-2xl font-bold tracking-wide">HexCore</span>
+          </div>
           <ul className="flex space-x-4 text-sm sm:text-base">
             <li><a href="#about" className="hover:text-blue-400">من نحن</a></li>
             <li><a href="#games" className="hover:text-blue-400">ألعابنا</a></li>
@@ -112,42 +115,4 @@ export default function HexCoreLanding() {
               <button className="mt-2 px-4 py-1 bg-white text-black rounded hover:bg-gray-300">اشترِ الآن</button>
             </div>
             <div className="bg-gray-900 p-4 rounded-xl shadow text-center">
-              <img src="https://via.placeholder.com/150" alt="قبعة HexCore" className="mx-auto mb-2 rounded" />
-              <h3 className="text-xl font-bold">قبعة رسمية</h3>
-              <p className="text-gray-400">بسعر 59 ريال</p>
-              <button className="mt-2 px-4 py-1 bg-white text-black rounded hover:bg-gray-300">اشترِ الآن</button>
-            </div>
-            <div className="bg-gray-900 p-4 rounded-xl shadow text-center">
-              <img src="https://via.placeholder.com/150" alt="ملصقات HexCore" className="mx-auto mb-2 rounded" />
-              <h3 className="text-xl font-bold">مجموعة ملصقات</h3>
-              <p className="text-gray-400">بسعر 29 ريال</p>
-              <button className="mt-2 px-4 py-1 bg-white text-black rounded hover:bg-gray-300">اشترِ الآن</button>
-            </div>
-          </div>
-        </section>
-
-        <section id="contact">
-          <h2 className="text-3xl font-semibold mb-6 text-center">تواصل معنا</h2>
-          <form
-            action="https://formspree.io/f/xovdrkzg"
-            method="POST"
-            className="max-w-xl mx-auto grid gap-4"
-            onSubmit={(e) => {
-              alert("✅ تم إرسال الرسالة بنجاح!");
-            }}
-          >
-            <input name="name" type="text" placeholder="اسمك الكامل" className="p-3 rounded bg-gray-800 text-white" required />
-            <input name="email" type="email" placeholder="بريدك الإلكتروني" className="p-3 rounded bg-gray-800 text-white" required />
-            <textarea name="message" placeholder="رسالتك" rows="5" className="p-3 rounded bg-gray-800 text-white"></textarea>
-            <button type="submit" className="bg-white text-black py-2 px-6 rounded font-bold hover:bg-gray-300">إرسال</button>
-          </form>
-        </section>
-
-      </main>
-
-      <footer className="text-center text-gray-500 border-t border-gray-700 pt-6 mt-12">
-        <p>© 2025 HexCore. جميع الحقوق محفوظة.</p>
-      </footer>
-    </div>
-  );
-}
+              <img src="https://via.placeholder.com/150
