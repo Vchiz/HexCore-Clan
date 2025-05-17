@@ -86,7 +86,14 @@ export default function HexCoreLanding() {
 
         <section id="contact">
           <h2 className="text-3xl font-semibold mb-6 text-center">تواصل معنا</h2>
-          <form action="https://formspree.io/f/xovdrkzg" method="POST" className="max-w-xl mx-auto grid gap-4">
+          <form
+            action="https://formspree.io/f/xovdrkzg"
+            method="POST"
+            className="max-w-xl mx-auto grid gap-4"
+            onSubmit={(e) => {
+              alert("✅ تم إرسال الرسالة بنجاح!");
+            }}
+          >
             <input name="name" type="text" placeholder="اسمك الكامل" className="p-3 rounded bg-gray-800 text-white" required />
             <input name="email" type="email" placeholder="بريدك الإلكتروني" className="p-3 rounded bg-gray-800 text-white" required />
             <textarea name="message" placeholder="رسالتك" rows="5" className="p-3 rounded bg-gray-800 text-white"></textarea>
