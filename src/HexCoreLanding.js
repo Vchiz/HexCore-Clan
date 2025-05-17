@@ -11,6 +11,8 @@ export default function HexCoreLanding() {
             <li><a href="#games" className="hover:text-blue-400">ألعابنا</a></li>
             <li><a href="#team" className="hover:text-blue-400">فريقنا</a></li>
             <li><a href="#tournaments" className="hover:text-blue-400">بطولاتنا</a></li>
+            <li><a href="#news" className="hover:text-blue-400">الأخبار</a></li>
+            <li><a href="#store" className="hover:text-blue-400">المتجر</a></li>
             <li><a href="#contact" className="hover:text-blue-400">تواصل</a></li>
           </ul>
         </div>
@@ -80,6 +82,46 @@ export default function HexCoreLanding() {
             <div className="bg-gray-900 p-6 rounded-2xl shadow">
               <h3 className="text-xl font-bold mb-2">HexCore بلوت ماسترز</h3>
               <p className="text-gray-400">بطولة خاصة بالألعاب الذهنية مع جوائز قيمة. تقام في الرياض حضورياً.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="news">
+          <h2 className="text-3xl font-semibold mb-6 border-b border-gray-700 pb-2">📢 الأخبار والمباريات القادمة</h2>
+          <div className="space-y-4 text-gray-300">
+            <div>
+              <h3 className="text-xl font-bold">📅 HexCore يشارك في دوري PUBG السعودية</h3>
+              <p className="text-sm text-gray-400">تاريخ الحدث: 10 يونيو 2025</p>
+              <p>يستعد فريق HexCore للمشاركة في دوري PUBG وسط منافسة شرسة من أبرز الفرق المحلية.</p>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold">🆕 انضمام لاعب جديد إلى فريق Valorant</h3>
+              <p className="text-sm text-gray-400">تاريخ النشر: 4 مايو 2025</p>
+              <p>يسرنا الإعلان عن انضمام اللاعب Blaze إلى فريق Valorant، ليعزز قوة الفريق في البطولات القادمة.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="store">
+          <h2 className="text-3xl font-semibold mb-6 border-b border-gray-700 pb-2">🛍️ متجر HexCore</h2>
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="bg-gray-900 p-4 rounded-xl shadow text-center">
+              <img src="https://via.placeholder.com/150" alt="تيشيرت HexCore" className="mx-auto mb-2 rounded" />
+              <h3 className="text-xl font-bold">تيشيرت HexCore</h3>
+              <p className="text-gray-400">بسعر 99 ريال</p>
+              <button className="mt-2 px-4 py-1 bg-white text-black rounded hover:bg-gray-300">اشترِ الآن</button>
+            </div>
+            <div className="bg-gray-900 p-4 rounded-xl shadow text-center">
+              <img src="https://via.placeholder.com/150" alt="قبعة HexCore" className="mx-auto mb-2 rounded" />
+              <h3 className="text-xl font-bold">قبعة رسمية</h3>
+              <p className="text-gray-400">بسعر 59 ريال</p>
+              <button className="mt-2 px-4 py-1 bg-white text-black rounded hover:bg-gray-300">اشترِ الآن</button>
+            </div>
+            <div className="bg-gray-900 p-4 rounded-xl shadow text-center">
+              <img src="https://via.placeholder.com/150" alt="ملصقات HexCore" className="mx-auto mb-2 rounded" />
+              <h3 className="text-xl font-bold">مجموعة ملصقات</h3>
+              <p className="text-gray-400">بسعر 29 ريال</p>
+              <button className="mt-2 px-4 py-1 bg-white text-black rounded hover:bg-gray-300">اشترِ الآن</button>
             </div>
           </div>
         </section>
