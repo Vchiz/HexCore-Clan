@@ -3,6 +3,18 @@ import React from "react";
 export default function HexCoreLanding() {
   return (
     <div className="min-h-screen bg-black text-white px-4 py-8">
+      <nav className="bg-gray-950 text-white px-4 py-3 sticky top-0 z-50 border-b border-gray-800 shadow">
+        <div className="max-w-6xl mx-auto flex justify-between items-center">
+          <div className="text-2xl font-bold tracking-wide">HexCore</div>
+          <ul className="flex space-x-4 text-sm sm:text-base">
+            <li><a href="#about" className="hover:text-blue-400">من نحن</a></li>
+            <li><a href="#games" className="hover:text-blue-400">ألعابنا</a></li>
+            <li><a href="#team" className="hover:text-blue-400">فريقنا</a></li>
+            <li><a href="#tournaments" className="hover:text-blue-400">بطولاتنا</a></li>
+          </ul>
+        </div>
+      </nav>
+
       <header className="text-center mb-12">
         <h1 className="text-5xl font-extrabold text-white mb-4">HexCore Esports</h1>
         <p className="text-lg text-gray-400">نحو القمة في عالم الرياضات الإلكترونية</p>
@@ -10,14 +22,14 @@ export default function HexCoreLanding() {
 
       <main className="max-w-6xl mx-auto space-y-20">
 
-        <section>
+        <section id="about">
           <h2 className="text-3xl font-semibold mb-4 border-b border-gray-700 pb-2">من نحن</h2>
           <p className="text-gray-300 leading-relaxed">
             HexCore هو فريق سعودي محترف في الرياضات الإلكترونية، يهدف إلى بناء منظومة تنافسية متكاملة تضم نخبة من اللاعبين، المدربين، وصناع المحتوى. نطمح إلى التميز على المستويين المحلي والعالمي.
           </p>
         </section>
 
-        <section>
+        <section id="games">
           <h2 className="text-3xl font-semibold mb-4 border-b border-gray-700 pb-2">ألعابنا</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div>
@@ -39,7 +51,7 @@ export default function HexCoreLanding() {
           </div>
         </section>
 
-        <section>
+        <section id="team">
           <h2 className="text-3xl font-semibold mb-4 border-b border-gray-700 pb-2 text-center">فريقنا</h2>
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
             <div className="bg-gray-900 p-4 rounded-2xl shadow">
@@ -57,7 +69,7 @@ export default function HexCoreLanding() {
           </div>
         </section>
 
-        <section>
+        <section id="tournaments">
           <h2 className="text-3xl font-semibold mb-4 border-b border-gray-700 pb-2 text-center">بطولاتنا</h2>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-gray-900 p-6 rounded-2xl shadow">
