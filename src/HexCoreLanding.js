@@ -11,6 +11,7 @@ export default function HexCoreLanding() {
             <li><a href="#games" className="hover:text-blue-400">ألعابنا</a></li>
             <li><a href="#team" className="hover:text-blue-400">فريقنا</a></li>
             <li><a href="#tournaments" className="hover:text-blue-400">بطولاتنا</a></li>
+            <li><a href="#contact" className="hover:text-blue-400">تواصل</a></li>
           </ul>
         </div>
       </nav>
@@ -81,6 +82,16 @@ export default function HexCoreLanding() {
               <p className="text-gray-400">بطولة خاصة بالألعاب الذهنية مع جوائز قيمة. تقام في الرياض حضورياً.</p>
             </div>
           </div>
+        </section>
+
+        <section id="contact">
+          <h2 className="text-3xl font-semibold mb-6 text-center">تواصل معنا</h2>
+          <form action="#" method="POST" className="max-w-xl mx-auto grid gap-4">
+            <input name="name" type="text" placeholder="اسمك الكامل" className="p-3 rounded bg-gray-800 text-white" required />
+            <input name="email" type="email" placeholder="بريدك الإلكتروني" className="p-3 rounded bg-gray-800 text-white" required />
+            <textarea name="message" placeholder="رسالتك" rows="5" className="p-3 rounded bg-gray-800 text-white"></textarea>
+            <button type="submit" className="bg-white text-black py-2 px-6 rounded font-bold hover:bg-gray-300">إرسال</button>
+          </form>
         </section>
 
       </main>
